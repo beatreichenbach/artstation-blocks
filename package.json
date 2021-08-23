@@ -1,0 +1,15 @@
+{
+  "name": "artstation",
+  "version": "1.0.0",
+  "description": "A collection of blocks to integrate ArtStation into WordPress.",
+  "main": "build/block.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "beatreichenbach",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^17.0.0"
+  }
+}

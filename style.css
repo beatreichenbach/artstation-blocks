@@ -1,0 +1,39 @@
+.album-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-grid-item {
+    width: calc(100% / 7);
+    position: relative;
+}
+
+.album-grid-item img {
+    vertical-align: bottom;
+}
+
+@media (max-width: 90rem) {
+    /* 1440px */
+    .album-grid-item {
+        width: calc(100% / 6);
+    }
+
+}
+
+@media (max-width: 64rem) {
+    /* 1024px */
+
+    .album-grid-item {
+        width: calc(100% / 4);
+    }
+
+}
+
+@media (max-width: 48rem) {
+    /* 768px */
+
+    .album-grid-item {
+        width: calc(100% / 2);
+    }
+
+}
