@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: ArtStation
- * Plugin URI: https://github.com/beatreichenbach
+ * Plugin URI: https://github.com/beatreichenbach/artstation-blocks
  * Description: A collection of blocks to integrate ArtStation into WordPress.
  * Version: 1.0.0
  * Author: Beat Reichenbach

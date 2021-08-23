@@ -40,6 +40,7 @@ registerBlockType( 'artstation/gallery', {
             props.setAttributes( { username: username } );
         }
 
+        // re-inserting the cloudflare script to load images from cdn
         function reload_js() {
             const script = document.getElementById('cloudflare');
             if (script == null) {
@@ -55,6 +56,7 @@ registerBlockType( 'artstation/gallery', {
             parent.appendChild(newscript);
         }
 
+        // javascript in the serversiderender block is not executed so it needs to be reloaded
         window.setTimeout(reload_js, 1000 );
 
         return (
